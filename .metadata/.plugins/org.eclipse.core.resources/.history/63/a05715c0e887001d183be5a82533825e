@@ -1,0 +1,14 @@
+package variableTest;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		int on = 1;
+		int off = 0;
+		
+		
+		
+		
+	}
+
+}

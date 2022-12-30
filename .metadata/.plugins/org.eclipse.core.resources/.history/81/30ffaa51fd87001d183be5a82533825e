@@ -1,0 +1,11 @@
+package inputTest;
+
+import java.util.Scanner;
+
+public class InputTest {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("¿Ã∏ß : ");
+		String name = sc.next();
+	}
+}

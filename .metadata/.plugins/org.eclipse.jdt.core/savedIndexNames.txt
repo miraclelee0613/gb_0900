@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\mirac\Desktop\gb_0900_ljs\java\workspace\.metadata\.plugins\org.eclipse.jdt.core
+427483732.index
+3565464805.index
+3236683300.index
+3674275368.index
+3520700411.index

@@ -1,0 +1,8 @@
+package printTest;
+
+public class PrintTest1 {
+	public static void main(String[] args) {
+		System.out.print("지우개\n");
+		System.out.print("20살");
+	}
+}

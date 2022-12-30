@@ -1,0 +1,58 @@
+package operTest;
+
+import java.util.Collection;
+import java.util.Scanner;
+
+public class Oper3 {
+	public static void main(String[] args) {
+//		사용자에게 키를 입력받고
+//		정수라면 정수로 출력
+//		실수라면 실수로 출력
+//		예) 183 -> 183 출력
+//			183.5 -> 183.5 출력
+//		삼항 연산자를 사용!
+		// 1번째
+		double num = 0;
+		boolean tof = false;
+		String result = null;
+		
+		Scanner sc = new Scanner(System.in);
+		num = sc.nextDouble();
+		
+		tof = num - (int)num == 0;
+		result = tof ? "결괏값(정수) : %.0f" : "결괏값(실수) : %.1f";
+		System.out.printf(result, tof ? (int)num : num);
+		
+		
+		
+		// 윤민우 님 코드
+//      key > 0 ? 양수 : 음수
+//      양수 -> 실수 > 정수
+//      음수 -> 실수 < 정수
+//      key > 0 ? 양수(실수 > 정수 ? 실수 : 정수) : 음수(실수 < 정수 ? 실수 : 정수)
+//      String.valueOf
+      
+//      result = key > 0 ? 
+//            key > (int)key ? key : (int)key 
+//                  : key < (int)key ? key : (int)key;
+		// 시도해봤으나 어려움
+//		result = "" + (num > 0 ? (num > (int)num ? num : (int)num) : (num < (int)num ? num : (int)num));
+//		result = num > 0 ? (num > (int)num ? "%.0f" : "%.0f") : (num < (int)num ? "%.0f" : "%.0f");
+//		System.out.printf(result, num > 0 ? /*양수*/ (num > (int)num ? /**/num : (int)num)
+//				: /*음수*/(num < (int)num ? num : (int)num));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

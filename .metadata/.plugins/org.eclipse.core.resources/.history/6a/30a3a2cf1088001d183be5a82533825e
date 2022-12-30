@@ -1,0 +1,8 @@
+package operTest;
+
+public class Oper2 {
+	public static void main(String[] args) {
+//		두 정수 대소비교
+		
+	}
+}

@@ -1,0 +1,10 @@
+package printTest;
+
+public class PrintTest1 {
+	public static void main(String[] args) {
+		//	이름 출력
+		System.out.print("지우개\n");
+		//	나이 출력
+		System.out.print("20살");
+	}
+}

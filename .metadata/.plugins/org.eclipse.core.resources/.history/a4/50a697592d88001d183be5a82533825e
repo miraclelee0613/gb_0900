@@ -1,0 +1,35 @@
+package operTest;
+
+import java.util.Scanner;
+
+public class Oper4 {
+	public static void main(String[] args) {
+//      심리 테스트
+      /*
+       * Q. 당신이 좋아하는 색을 선택하세요.
+       * 1. 빨간색
+       * 2. 노란색
+       * 3. 검은색
+       * 4. 흰색
+       * 
+       * 빨간색 : 불같고 열정적이고 적극적이다.
+       * 노란색 : 발랄하고 밝고 귀엽고 개성있고 착하다.
+       * 검은색 : 묵묵하고 든든하고 냉철하고 멋지다.
+       * 흰색 : 천사같고 깔끔하고 정리를 좋아하고 배려심이 많다.
+       * 
+       */
+	   final String RED = "빨간색", BLACK = "검은색", YELLOW = "노란색", WHITE = "흰색";
+	   final String RED_MSG = "불같고 열정적이고 적극적이다.", BLACK_MSG = "묵묵하고 든든하고 냉철하고 멋지다.", YELLOW_MSG = "발랄하고 밝고 귀엽고 개성있고 착하다.", WHITE_MSG = "천사같고 깔끔하고 정리를 좋아하고 배려심이 많다.";
+	   String msg = null, question = "Q. 당신이 좋아하는 색을 선택하세요.";
+	   int choice = 0;
+	   
+	   System.out.printf("%s\n1. %s\n2. %s\n3. %s\n4. %s\n", question, RED, YELLOW, BLACK, WHITE);
+	   System.out.print("입력 : ");
+	   Scanner sc = new Scanner(System.in);
+	   choice = sc.nextInt();
+	   msg = choice == 1 ? RED + " : " + RED_MSG : choice == 2 ? YELLOW + " : " + YELLOW_MSG : choice == 3 ? BLACK + " : " + BLACK_MSG : choice == 4 ? WHITE + " : " + WHITE_MSG : "잘못 입력하셨습니다"; 
+	   
+	   System.out.println(msg);
+	   
+   }
+}

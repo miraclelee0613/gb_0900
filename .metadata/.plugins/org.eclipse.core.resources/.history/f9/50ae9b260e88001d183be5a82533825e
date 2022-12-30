@@ -1,0 +1,8 @@
+package operTest;
+
+public class Oper1 {
+	public static void main(String[] args) {
+		System.out.println(10 == 11);
+		System.out.println(10 != 11);
+	}
+}

@@ -1,0 +1,25 @@
+package operTest;
+
+import java.util.Scanner;
+
+public class Oper3 {
+	public static void main(String[] args) {
+//		사용자에게 키를 입력받고
+//		정수라면 정수로 출력
+//		실수라면 실수로 출력
+//		예) 183 -> 183 출력
+//			183.5 -> 183.5 출력
+//		삼항 연산자를 사용!
+		double num = 0;
+		int dummy = 0;
+		boolean tof = false;
+		String result = null;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		num = Double.parseDouble(sc.next());
+		System.out.println(num - (int)num > 0 ? num : (int)num);
+		
+	}
+}
+//132.2 - 132 = 0.2
