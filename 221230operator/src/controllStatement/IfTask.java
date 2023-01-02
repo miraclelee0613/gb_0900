@@ -20,13 +20,13 @@ public class IfTask {
 
 //      사용자가 입력한 번호의 색상을 영어로 출력한다.
 	   if(inputNum == 1) {
-		   result = RED;
+		   result = "RED";
 	   }else if(inputNum == 2) {
-		   result = BLACK;
+		   result = "BLACK";
 	   }else if(inputNum == 3) {
-		   result = YELLOW;
+		   result = "YELLOW";
 	   }else if(inputNum == 4) {
-		   result = WHITE;
+		   result = "WHITE";
 	   }else {
 		   result = "잘못 입력하셨습니다";
 	   }

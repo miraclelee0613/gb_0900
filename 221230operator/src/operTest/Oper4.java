@@ -33,7 +33,7 @@ public class Oper4 {
 		Scanner sc = new Scanner(System.in);
 		choice = sc.nextInt();
 		msg =	// 조건에 따라 변수에 넣을 값이 달라짐.
-				choice == 1 ? RED + " : " + RED_MSG	// 입력받은 값이 1인 경우
+			choice == 1 ? RED + " : " + RED_MSG	// 입력받은 값이 1인 경우
 				: choice == 2 ? YELLOW + " : " + YELLOW_MSG	// 입력받은 값이 2인 경우
 						: choice == 3 ? BLACK + " : " + BLACK_MSG	// 입력받은 값이 3인 경우
 								: choice == 4 ? WHITE + " : " + WHITE_MSG	//	입력받은 값이 4인 경우
