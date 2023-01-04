@@ -2,7 +2,7 @@ package arrayTest;
 
 import java.util.Scanner;
 
-public class ArTask {
+public class ArTask1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		

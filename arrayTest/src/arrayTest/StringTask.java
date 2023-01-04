@@ -38,9 +38,9 @@ public class StringTask {
 		inputNum = sc.next();
 
 		for (int i = 0; i < inputNum.length(); i++) {
-//			resultStr += hans[Integer.parseInt("" + inputNum.charAt(i))];
+			resultStr += hans[Integer.parseInt("" + inputNum.charAt(i))];
 //			resultStr += han.charAt(inputNum.charAt(i) - 48);
-//			System.out.println(resultStr);
+			System.out.println(resultStr);
 		}
 		System.out.println(resultStr);
 
