@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="java.awt.Choice"/>
     <fullyQualifiedTypeName name="methodTest.MethodTest"/>
     <fullyQualifiedTypeName name="methodTest.MethodTask"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="variableTest.StorageClassTest1"/>
     <fullyQualifiedTypeName name="classTest.Car"/>
     <fullyQualifiedTypeName name="classTest.Company"/>
@@ -18,7 +17,13 @@
     <fullyQualifiedTypeName name="job.TruckerSpec"/>
     <fullyQualifiedTypeName name="com.sun.swing.internal.plaf.basic.resources.basic"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.ExceptionInInitializerError"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.Copies"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="java.lang.Runtime"/>
+    <fullyQualifiedTypeName name="job.CoupangMain"/>
+    <fullyQualifiedTypeName name="job.CoupangMan"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
