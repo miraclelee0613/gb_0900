@@ -1,8 +1,0 @@
-package inputTest;
-
-public class InputTask1 {
-	public static void main(String[] args) {
-//		두 정수를 입력한 뒤 덧셈 결과 출력
-//		단, next()만 사용한다.
-	}
-}

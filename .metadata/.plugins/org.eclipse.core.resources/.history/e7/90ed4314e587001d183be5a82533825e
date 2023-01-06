@@ -1,9 +1,0 @@
-package variableTest;
-
-public class FormatTest {
-
-	public static void main(String[] args) {
-		String name = "ÇÑµ¿¼®";
-	}
-
-}

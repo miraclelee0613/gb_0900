@@ -1,7 +1,0 @@
-package inputTest;
-
-public class InputTask1 {
-	public static void main(String[] args) {
-		
-	}
-}
