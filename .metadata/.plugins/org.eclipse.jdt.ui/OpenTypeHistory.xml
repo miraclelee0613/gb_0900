@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=abstract/src&lt;abstarctTest{Electronics.java[Electronics" modifiers="1025" timestamp="1673227728061"/>
+    <typeInfo handle="=inteface/src&lt;intefaceTest{Pet.java[Pet" modifiers="513" timestamp="1673229767455"/>
+    <typeInfo handle="=inteface/src&lt;starbucks{Starbucks.java[Starbucks" modifiers="1" timestamp="1673243528958"/>
+    <typeInfo handle="=inteface/src&lt;markerInterfaceTest{Animal.java[Animal" modifiers="1" timestamp="1673230766618"/>
+    <typeInfo handle="=inteface/src&lt;starbucks{Form.java[Form" modifiers="513" timestamp="1673244970293"/>
+</typeInfoHistroy>
