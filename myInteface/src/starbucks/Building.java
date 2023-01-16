@@ -4,7 +4,39 @@ public class Building {
 	public static void main(String[] args) {
 		Starbucks gangnam = new Starbucks();
 		Starbucks jamsil = new Starbucks();
-
+		Test t = (n1, n2) -> n1 + n2;
+		Form f = new Form() {
+			
+			@Override
+			public void sell(String menu) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public String[] getMenu() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+		
+		Form f2 = new Form() {
+			
+			@Override
+			public void sell(String menu) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public String[] getMenu() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+		};
+		
+		f.sell(null);
+		t.add(0, 0);
 		gangnam.register(new Form() {
 
 			@Override

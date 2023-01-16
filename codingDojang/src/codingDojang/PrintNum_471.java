@@ -1,7 +1,8 @@
 package codingDojang;
 
-public class CodingDojang471 {
+public class PrintNum_471 {
 	public static void main(String[] args) {
+//		https://codingdojang.com/scode/471
 //		20150111을 출력합니다.
 //		4가지 기준만 만족하면 됩니다.
 //
